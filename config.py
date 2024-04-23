@@ -1,1 +1,1 @@
-token = 'vk1.a.HG5QUwq0Z86zExwWpeD0tX4l39F5BpP-krB8Bu9y61SPr9fcCWXnaGzexEpkyyzlK1olhY-PR9MM5kW2MwZWihnA8pHXutMNySbgSEV6NId0bUWv-Yfhs8GYsw2IpQeTmumaKUjew5ZD-cCA1F8TeiVQTBdJIpGxYNWLZQeAxDXKdc--xk9mBCrjNQBbkvtkOroFhQ7bs7LH3X8LfJotGw'
+token = ""  ## Вставьте сюда свой токен группы VK
