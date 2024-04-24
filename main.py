@@ -1,10 +1,14 @@
+## ------------------------- Импорты ------------------------- ##
 from vkbottle.bot import Bot, Message
 from config import token
 
 
+## ------------------------- Переменные ------------------------- ##
 bot = Bot(token)
 bot.labeler.vbml_ignore_case = True
 
+
+## ------------------------- Реакции на сообщения ------------------------- ##
 @bot.on.chat_message(text=["привет", "hello", "hi", "ку", "qq", "q", "хай", "дарова", "здравствуй", "доброго времени суток", "вечер в хату", "здравствуйте", "здарова", "пиривирет", "приветик", "приветули", "алоха", "пиривет"])
 async def message_handler(message: Message):
     user = await bot.api.users.get(message.from_id)
@@ -24,4 +28,5 @@ async def message_handler(message: Message):
         await message.reply(f"Привет, {user[0].first_name}❤")
 
 
+## ------------------------- Запуск бота ------------------------- ##
 bot.run_forever()
