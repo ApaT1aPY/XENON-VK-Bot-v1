@@ -12,5 +12,24 @@
 later...
 
 
-### Todo list:
+### В планах сделать:
 - [ ] Добавить кучу Admin и User комманд
+
+----------------------------------------------------------------------------------------------------------------------------
+
+### How to use the bot?
+- Download the files and place them in a folder or hosting convenient for you
+- Fill in all the lines in config.py
+- Launch main.py (Due to requirements.txt - python will load the necessary libraries by itself)
+
+
+### What messages does the bot respond to?
+- Hello (and many variations of this word) [There are a couple of checks for sending a message, done for my local memes]
+
+
+### Bot commands:
+later...
+
+
+### Todo list:
+- [ ] Add a bunch of Admin and User commands
