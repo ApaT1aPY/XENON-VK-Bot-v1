@@ -8,3 +8,12 @@
 
 Команды бота:
 later...
+
+
+Todo list:
+- [ ] This task is postponed
+
+# DONE
+
+- [x] This task is done #prio1
+- [-] This task has been declined
