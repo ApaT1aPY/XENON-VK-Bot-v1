@@ -5,7 +5,7 @@ from config import token
 bot = Bot(token)
 bot.labeler.vbml_ignore_case = True
 
-@bot.on.chat_message(text=["привет", "hello", "hi", "ку", "qq", "q", "хай", "дарова", "здравствуй", "доброго времени суток", "вечер в хату", "здравствуйте"])
+@bot.on.chat_message(text=["привет", "hello", "hi", "ку", "qq", "q", "хай", "дарова", "здравствуй", "доброго времени суток", "вечер в хату", "здравствуйте", "здарова", "пиривирет", "приветик", "приветули", "алоха", "пиривет"])
 async def message_handler(message: Message):
     user = await bot.api.users.get(message.from_id)
     if user[0].first_name == "Артём":
